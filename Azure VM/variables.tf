@@ -1,33 +1,66 @@
-variable "resource_group_name" {
+variable "REMOTE_BACKEND_RG" {
+    type = string
+}
+
+variable "REMOTE_BACKEND_STORAGE_ACCOUNT" {
+    type = string
+}
+
+variable "REMOTE_BACKEND_CONATINER_NAME" {
+    type = string
+}
+
+variable "REMOTE_BACKEND_TFSTATE_FILE_NAME" {
+    type = string
+}
+
+variable "RG_NAME" {
     default = "My_Resource_Group"
   type = string
 }
 
-variable "resource_group_location" {
+variable "RG_LOCATION" {
   default = "eastus"
 }
 
-variable "subnet_name" {
+variable "VNET_NAME" {
+  default = "My-VNET"
+}
+
+variable "SUBNET_NAME" {
   default = "My_Subnet"
   type = string
 }
 
-variable "nic_name" {
+variable "NIC_NAME" {
   default = "My_Network_Interface"
   type = string
 }
 
-variable "virtual_machine_name" {
+variable "VM_NAME" {
   default = "VirtualMachine1"
   type = string
 }
 
-variable "admin_username" {
+variable "ADMIN_USERNAME" {
   default = "vishal"
   type = string
 }
 
-variable "admin_password" {
+variable "ADMIN_PASSWORD" {
   default = "vishal@123"
   type = string
 }
+
+variable "VM_SIZE" {
+  default = "Standard_DS1_v2"
+}
+
+variable "OS_DISK_NAME" {
+  default = "myOsDisk"
+}
+
+variable "OS_DISK_STORAGE_ACCOUNT_TYPE" {
+  default = "Standard_LRS"
+}
+
