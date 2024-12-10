@@ -1,6 +1,6 @@
 # RG Details
-ResourceGroupName = "RG-Hotel-Management-App"
-locationName = "East US 2"
+ResourceGroupName = "RG-Taj-Restaurant"
+locationName = "East US"
 
 # Resource - Function App
 App_Insight_Name = "AI-FA-UserMgmt-APIs-01"
