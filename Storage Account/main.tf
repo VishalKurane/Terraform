@@ -1,5 +1,6 @@
 provider "azurerm" {
   features {}
+  subscription_id = "_______"       # Provide your Subscription ID
 }
 
 resource "azurerm_resource_group" "RG" {

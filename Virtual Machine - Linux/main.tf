@@ -1,5 +1,6 @@
 provider "azurerm" {
   features {}
+  subscription_id = "_______"       # Provide your Subscription ID
 }
 
 # data block is used to retrieve and reference information that already exists outside of Terraform's control, such as existing resources or infrastructure managed by another system or Terraform configuration. Unlike resource blocks, which create or manage infrastructure, data blocks are used for reading information.

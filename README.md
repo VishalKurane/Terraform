@@ -17,6 +17,11 @@ This repository contains a collection of Terraform scripts designed to automate 
 - Virtual Networks
 - Storage Accounts
 - Virtual Machines
+- Linux Function App
+- Application Insight
+- Log Analytocs Workspace
+- ServiceBus Namespace
+- AKS Cluster
 - And more...
 
 ### Prerequisites
